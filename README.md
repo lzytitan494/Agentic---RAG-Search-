@@ -1,4 +1,4 @@
-# Little-bit-smart-RAG
+# Agentic-RAG-with-Search
 This repository contains an implementation of an adaptive Retrieval-Augmented Generation (RAG) system using LangChain and Cohere APIs. The system intelligently routes user questions to either a vector store containing pre-indexed documents or performs a web search based on the nature of the question. It leverages a series of prompts and models to ensure the generation is accurate and relevant.
 ## Features
 ### Environment Setup:
