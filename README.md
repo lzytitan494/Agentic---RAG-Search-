@@ -11,7 +11,7 @@ This repository contains an implementation of an adaptive Retrieval-Augmented Ge
 * Store the chunks in a Chroma vector store with Cohere embeddings.
 ### Question Routing:
 
-* Route user questions to either the vector store or web search.
+* Route user questions to either the vector store or web search or None (model will directly answer)
 * Use few-shot prompting to train the model on routing decisions.
 ### Retrieval and Generation:
 
